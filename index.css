@@ -1,0 +1,164 @@
+body {
+    background-color: #3aafa9;
+}
+/*@media(min-width :620px) {
+    .box{
+        font-family: "Inria Serif", serif;
+        font-weight: 400;
+        font-style: bold;
+        background-color: rgba(255, 255, 255, 0.856);
+        width: 300px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+       
+    }
+    .name{
+        font-family: "Inria Sans", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        color: rgb(0, 14, 5);
+    }
+}*/
+
+.box{
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: bold;
+    background-color: rgba(255, 255, 255, 0.856);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    left: 300px;
+    top: 25px;
+}
+.name{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(0, 14, 5);
+}
+
+#Enteritem{
+    display: block;
+    position: relative;
+    width: 150px;
+    height: 20px;
+
+    border-color: rgba(2, 2, 2, 0.514) ;
+}
+
+.label{
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.from{
+    position: relative;
+    top: 10px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.to{
+   position: relative;
+   bottom: 8px;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal; 
+}
+.fa-solid.fa-arrow-right-arrow-left{
+    position: relative;
+    top: 20px;
+    left: 5px;
+}
+
+.select_items{
+    display: flex;
+    justify-content: space-between;
+}
+
+#option11{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    appearance: none;
+    border-radius: 2px;
+    position: relative;
+    top: 15px;
+}
+#option22{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    width: 100px;
+    height: 25px;
+    padding: 5px;
+    appearance: none;
+    border-radius: 2px;
+    position: relative;
+    top: 15px;
+}
+
+.result{
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+    display: flex;
+    position: relative;
+    top: 20px;
+}
+
+#result{
+    color: rgb(2, 244, 103);
+}
+#convert{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 23px;
+    width: 250px;
+    height: 40px;
+    color: rgb(252, 249, 249);
+    background-color: #000a0a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+
+.email{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+}
+.number{
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: small;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+    top: 20px;
+}
+
+
+
+
+
+
